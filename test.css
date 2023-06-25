@@ -1,0 +1,46 @@
+.div1{
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 40%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-color: blue;
+animation-name: policeo;
+animation-duration: 0.5s;
+animation-timing-function: ease-out;
+animation-iteration-count: infinite;
+}
+@keyframes policeo {
+    0%{
+background-color: red;
+    }
+    100%{
+        background-color: blue;
+    }
+}
+.div2{
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 40%;
+    position: absolute;
+ 
+    top: 50%;
+    background-color: blue;
+animation-name: policet;
+animation-duration: 0.5s;
+animation-timing-function: ease-out;
+animation-iteration-count: infinite;
+    left: 30%;
+
+}
+@keyframes policet {
+    0%{
+background-color: blue;
+    }
+    100%{
+        background-color: red;
+    }
+}
